@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Luciano Santos portfólio</title>
+  <meta name="title" content=" - I'm User Interface Designer & Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="64" height="24" alt=" home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+
+          <li>
+            <a href="#" class="navbar-link">Experiência</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Contato</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@email.com" class="contact-link">lucianosanto0202@gmail.com</a>
+
+          <a href="tel:001234567890" class="contact-link">(12) 98205-1406</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/luciano-santos-b2212b210/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/LucianoDev10" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://web.whatsapp.com/send?phone=+5512982051406" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/IMG.jpg" width="560" height="540" alt="" class="w-100" data-reveal="top">
+
+
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              Seja muito bem vindo
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Olá! Me chamo Luciano, sou Product Manager!
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#" class="btn btn-primary">Meus trabalhos</a>
+
+              <a href="#" class="btn btn-secondary">Meu contato</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section about" aria-label="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">Resumo</h2>
+
+              <p class="section-text">
+                Sou um apaixonado por tecnologia que começou no mundo da programação desde muito novo e aos poucos fui
+                me encontrando na área de produto.
+              </p>
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p> Produtos Web</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Produtos Mobile</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Desenvolvimento</p>
+
+                  <span class="span">85 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 85%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Analytics</p>
+
+                  <span class="span">90 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 90%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Produtos Web</h3>
+
+                <p class="card-text">
+                  Experiência em Desenvolver e comunicar uma visão estratégica clara para o produto,
+                  alinhada aos objetivos de negócios e às necessidades dos clientes.
+
+
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Produtos Mobile</h3>
+
+                <p class="card-text">
+                  Experiência com desenvolvimento de produtos digitais especializados em plataformas mobile, com
+                  entendimento
+                  sobre escalabilidade, UX/UI e outros aspectos relacionados do ciclo de vida do produto.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Desenvolvimento</h3>
+
+                <p class="card-text">
+                  Experiência no desenvolvimento de sistemas, destacando proficiência em linguagens de programação e
+                  especialização no design e implementação de APIs, entre outros aspectos do desenvolvimento de software
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Analytics</h3>
+
+                <p class="card-text">
+                  Experiência em analisar o mercado, identificar tendências, entender a concorrência e antecipar as
+                  necessidades dos
+                  clientes para orientar as decisões de produto tudo isso através de Big query, power BI e Google
+                  Analytics.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Experiência e certificações</h2>
+            </div>
+
+
+          </div>
+
+          <ul class="grid-list">
+
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #f5faf7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Experiência atual</p>
+
+                  <h3 class="h3 card-title">Escola DNC - 2022 até atualmente</h3>
+                  <h4 class="h4 card-title">Associate Product Manager</h4>
+
+
+                  <p class="card-text">
+                    Desempenhei o papel de Associate Product Manager, colaborando ativamente no ciclo de vida completo
+                    dos produtos digitais. Responsabilidades incluíram a assistência no desenvolvimento e execução de
+                    estratégias de produtos, análise de mercado, coordenação eficaz com equipes multifuncionais e
+                    garantia da entrega oportuna de projetos. Demonstrei habilidades sólidas na gestão de stakeholders,
+                    na análise de dados para tomada de decisões estratégicas e no aprimoramento contínuo da experiência
+                    do usuário. Contribuí para o sucesso do produto através da priorização eficiente de recursos,
+                    acompanhamento de métricas-chave de desempenho e resolução proativa de desafios. Com uma abordagem
+                    centrada no usuário e orientada para resultados, desempenhei um papel integral no alcance de metas
+                    ambiciosas de produto.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-1" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #3f78e0">Última Experiência</p>
+
+                  <h3 class="h3 card-title">Guia Taubaté - 2021 até 2022</h3>
+                  <h4 class="h4 card-title">Desenvolver Full Stack Jr</h4>
+
+
+                  <p class="card-text">
+                    Iniciei minha carreira começando como desenvolvedor Front-end, onde traduzia designs do Figma para
+                    código utilizando HTML, CSS e JavaScript.
+                    Com o tempo, ampliei meu conhecimento e adquiri experiência também no desenvolvimento Back-end:
+                    </br>
+                    - Desenvolvimento e otimização de API's de alto desempenho;</br>
+                    - Implementação de clean code e melhores práticas de desenvolvimento;</br>
+                    - Manipulação avançada de dados com SQL, incluindo BigQuery;</br>
+                    - Versionamento eficiente de código com GIT;</br>
+                    - Programação Orientada a Objetos (POO) para arquiteturas escaláveis;</br>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Formação</p></br>
+
+
+                  <p class="card-text">
+                    Gentil de Camargo - Ensino médio completo;</br></br>
+                    ETEC - Técnico de informática;</br></br>
+
+                    Instituto Federal de São Paulo - Análise e desenvolvimento de sistemas; </br>
+                  </p>
+
+
+                </div>
+            <li>
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Certificações Gerais</p></br>
+
+
+
+                  <p class="card-text">
+                    Fundação Bradesco - Introdução à Programação Orientada Objetos</br></br>
+
+                    Robson Leite - Full Stack PHP</br></br>
+                    Escola DNC - Product management fundamentals</br></br>
+                    Scrum Alliance - CSPO</br></br>
+
+
+
+                  </p>
+
+                </div>
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+
+
+      <ul class="social-list">
+
+
+
+
+
+
+
+
+        <li>
+          <a href="https://www.linkedin.com/in/luciano-santos-b2212b210/" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/LucianoDev10" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="https://web.whatsapp.com/send?phone=+5512982051406" class="social-link">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
